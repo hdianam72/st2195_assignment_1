@@ -1,0 +1,20 @@
+---
+title: "Assignment 1 R"
+author: "DMHT"
+date: "2026-02-04"
+output: html_document
+---
+
+## Introduction
+
+This R Markdown file prints all integers between 1 and 10 (including 1 and 10).
+It is part of ST2195 Assignment 1.
+
+## R Code
+
+```{r}
+# Print integers from 1 to 10
+
+for (i in 1:10) {
+  print(i)
+}
